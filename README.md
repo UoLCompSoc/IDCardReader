@@ -1,11 +1,11 @@
 IDCardReader
 ============
 
-What's This?
+What's this?
 ------------
 A very simple Android app which can read the student ID and expiration date from a University NFC ID card.
 
-Isn't that Breaking some rules?
+Isn't that breaking some rules?
 -------------------------------
 No; the ID cards contain a mix of encrypted and unencrypted data. This app makes no attempt to touch the encrypted data in any way; it merely reads the unencrypted (i.e. publically accessible) data from the card. There's nothing stored unencrypted that you couldn't read from the front of the card anyway; there's actually more unencrypted data on the front than stored inside the card.
 
@@ -17,7 +17,7 @@ This is not intended as a production app, merely a demo that you can use to play
 
 Once you've got it running, just hold the card up to your phone; if you have more than one app which handles NFC cards, you'll need to select this app (NFCPlayground) and keep the card held in place.
 
-The Communication Methods are Illegible!
+The communication methods are illegible!
 ----------------------------------------
 True; for "security reasons" the type of card the University uses (Mifare DESFire v1) have no public command list available, so the commands you see are just the raw hex sent to and received from the card. We don't really want to go into more detail than that; we've not seen the actual command list (for which you need to sign an NDA) and so the commands you see are mainly a product of luck rather than judgement.
 
