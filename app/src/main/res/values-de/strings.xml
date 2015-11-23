@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NFCPlayground</string>
+    <string name="expiry_date">Verfallsdatum: </string>
+    <string name="student_id">ID-Nummer: </string>
+    <string name="reset">Löschen</string>
+</resources>
